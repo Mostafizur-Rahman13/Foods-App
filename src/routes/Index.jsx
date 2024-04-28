@@ -5,6 +5,7 @@ import Navbar from '../components/navbar/Navbar'
 import Cart from '../pages/cart/Cart'
 import PlaceOrder from '../pages/place order/PlaceOrder'
 import Error from '../pages/error/Error'
+import Footer from '../components/footer/Footer'
 
 const Index = () => {
 
@@ -22,6 +23,7 @@ const Index = () => {
         <Route path='*' element={<Error />} />
 
       </Routes>
+      <Footer />
     </BrowserRouter >
 
   )
