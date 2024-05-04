@@ -7,19 +7,22 @@ import PlaceOrder from '../pages/place order/PlaceOrder'
 import Error from '../pages/error/Error'
 import Footer from '../components/footer/Footer'
 import LoginPopup from '../components/loginpopup/LoginPopup'
+import Search from '../components/searchbar/Search'
 
 
 const Index = () => {
 
   const [showLogin, setShowLogin] = useState(false)
 
+
   return (
 
     < BrowserRouter >
 
-      {showLogin ? <LoginPopup setShowLogin={setShowLogin} /> : <></>}
 
-      <Navbar setShowLogin={setShowLogin} />
+      {showSearch ? <Search setShowSearch={setShowSearch} /> : <></>}
+
+      <Navbar setShowLogin={setShowLogin} setShowSearch={setShowSearch} />
 
       <Routes>
 

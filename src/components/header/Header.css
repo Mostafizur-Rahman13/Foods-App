@@ -39,6 +39,13 @@
   border-radius: 50px;
 }
 
+.header-contents button:hover {
+  background-color: #429b61;
+  color: white;
+  animation: fadeIn 0.3s;
+  box-shadow: 2px 2px 0px wheat;
+}
+
 @media (max-width:1050px) {
 
   .header-contents {

@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import './LoginPopup.css'
-import { current } from '@reduxjs/toolkit'
 import { assets } from '../../assets/assets'
 
 const LoginPopup = ({ setShowLogin }) => {
@@ -8,6 +7,7 @@ const LoginPopup = ({ setShowLogin }) => {
   const [currState, setCurrState] = useState("Login")
 
   return (
+
     <div className='login-popup'>
 
       <form className='login-popup-container'>

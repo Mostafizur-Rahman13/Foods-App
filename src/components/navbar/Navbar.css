@@ -23,6 +23,11 @@
   gap: 40px;
 }
 
+.navbar-search-icon {
+  cursor: pointer;
+
+}
+
 .navbar button {
   background-color: transparent;
   color: #49557e;

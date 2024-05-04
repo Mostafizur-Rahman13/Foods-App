@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 import { StoreContext } from '../../context/StoreContext.jsx'
 
 
-const Navbar = ({ setShowLogin }) => {
+const Navbar = ({ setShowLogin, setShowSearch }) => {
 
   const [menu, setMenu] = useState("home")
 
@@ -29,7 +29,8 @@ const Navbar = ({ setShowLogin }) => {
       </ul>
 
       <div className="navbar-right">
-        <img src={assets.search_icon} alt="search-icon" />
+
+        <img className='search-icon' src={assets.search_icon} alt="" />
 
         <div className="navbar-search-icon">
           <Link to='./cart'><img src={assets.basket_icon} alt="basket-icon" /></Link>
