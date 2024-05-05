@@ -6,9 +6,6 @@ import Cart from '../pages/cart/Cart'
 import PlaceOrder from '../pages/place order/PlaceOrder'
 import Error from '../pages/error/Error'
 import Footer from '../components/footer/Footer'
-import LoginPopup from '../components/loginpopup/LoginPopup'
-import Search from '../components/searchbar/Search'
-
 
 const Index = () => {
 
@@ -20,9 +17,7 @@ const Index = () => {
     < BrowserRouter >
 
 
-      {showSearch ? <Search setShowSearch={setShowSearch} /> : <></>}
-
-      <Navbar setShowLogin={setShowLogin} setShowSearch={setShowSearch} />
+      <Navbar setShowLogin={setShowLogin} />
 
       <Routes>
 
