@@ -6,6 +6,7 @@ import Cart from '../pages/cart/Cart'
 import PlaceOrder from '../pages/place order/PlaceOrder'
 import Error from '../pages/error/Error'
 import Footer from '../components/footer/Footer'
+import LoginPopup from '../components/loginpopup/LoginPopup'
 
 const Index = () => {
 
@@ -16,6 +17,7 @@ const Index = () => {
 
     < BrowserRouter >
 
+      {showLogin ? <LoginPopup setShowLogin={setShowLogin} /> : <></>}
 
       <Navbar setShowLogin={setShowLogin} />
 
