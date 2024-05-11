@@ -71,4 +71,5 @@
 
 .login-popup p span {
   color: tomato;
+  cursor: pointer;
 }
