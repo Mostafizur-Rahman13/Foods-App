@@ -15,5 +15,5 @@ This web application, built using ReactJS, is a food delivery platform aimed at 
 - Add other technologies here</br>
 
 
-<h2>🌼App Deploy Link Here🌼 </h2></br> <h2>https://mostafiz-foods-app.netlify.app </h2>
+<h2>🌼App Deploy Link Here🌼 </h2><h2>https://mostafiz-foods-app.netlify.app </h2>
 
