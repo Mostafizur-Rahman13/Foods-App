@@ -67,6 +67,11 @@
   font-size: 16px;
 }
 
+.cart-total button:hover {
+  background-color: rgb(230, 44, 11);
+  transition: 0.3s;
+}
+
 .cart-promocode {
   flex: 1;
 }
